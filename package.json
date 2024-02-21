@@ -1,0 +1,61 @@
+{
+    "name": "n8n-nodes-html2image",
+    "version": "0.1.0",
+    "description": "n8n node for convert html to image",
+    "license": "MIT",
+    "homepage": "https://github.com/siduko/n8n-nodes-html2image",
+    "author": {
+        "name": "hckdotng",
+        "url": "https://hck.ng"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/siduko/n8n-nodes-html2image.git"
+    },
+    "main": "index.js",
+    "scripts": {
+        "dev": "npm run watch",
+        "build": "tsc && gulp",
+        "lint": "tslint -p tsconfig.json -c tslint.json",
+        "lintfix": "tslint --fix -p tsconfig.json -c tslint.json",
+        "nodelinter": "nodelinter",
+        "watch": "tsc --watch"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "n8n",
+        "node",
+        "puppeteer",
+        "node-html-to-image",
+        "screenshot",
+        "n8n-node",
+        "n8n-community-node-package",
+        "automation"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "credentials": [],
+        "nodes": [
+            "dist/nodes/Html2ImageNode/Html2ImageNode.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.202",
+        "@types/node": "^20.8.7",
+        "@types/node-ipc": "^9.2.2",
+        "gulp": "^4.0.0",
+        "nodelinter": "^0.1.19",
+        "tslint": "^6.1.2",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "axios": "^1.1.3",
+        "lodash": "^4.17.21",
+        "n8n-core": "*",
+        "n8n-workflow": "*",
+        "node-html-to-image": "^4.0.0",
+        "node-ipc": "^11.1.0"
+    }
+}

@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  n8n:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ./:/home/node/.n8n/custom/n8n-nodes-html2image
+    ports:
+      - 5678:5678

@@ -1,0 +1,1 @@
+{"version":3,"file":"Html2Image.node.d.ts","sourceRoot":"","sources":["../../../nodes/Html2Image/Html2Image.node.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,iBAAiB,EAAE,kBAAkB,EAAE,SAAS,EAAE,oBAAoB,EAAC,MAAM,cAAc,CAAC;AAIpG,qBAAa,UAAW,YAAW,SAAS;IAC3C,WAAW,EAAE,oBAAoB,CAAmB;IAE9C,OAAO,CAAC,IAAI,EAAE,iBAAiB,GAAG,OAAO,CAAC,kBAAkB,EAAE,EAAE,CAAC;CAkCvE"}
